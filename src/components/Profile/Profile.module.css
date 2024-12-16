@@ -1,0 +1,66 @@
+.wrapper {
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 3px 14px 2px rgba(0, 0, 0, 0.41);
+  background-color: #f3f2f2;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.userPhoto {
+  width: 100px;
+  background-color: #292929;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.userName {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.userInfo {
+  color: gray;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dcdcdc;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid black;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.listItem:not(:last-child) {
+  border-right: 2px solid black;
+}
+
+.text {
+  color: black;
+}
+
+.numbers {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
